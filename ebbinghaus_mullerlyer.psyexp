@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2022.1.4">
+  <Settings>
+    <Param val="use prefs" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="use prefs" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="{'participant': ''}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="html" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="packaged" valType="str" updates="None" name="JS libs"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="fileList" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="deg" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[1280, 800]" valType="code" updates="None" name="Window size (pixels)"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="$[0,0,0]" valType="str" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="ebbinghaus_mullerlyer" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="PsychToolbox" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="debug" valType="code" updates="None" name="logging level"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+  </Settings>
+  <Routines>
+    <Routine name="welcome">
+      <TextComponent name="welcome_txt">
+        <Param val="white" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="1" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="welcome_txt" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="In this test, you will do tasks which each involves a pair of objects.&amp;#10;&amp;#10;In each task, you are to make sure that the objects' sizes are as similar as possible. To do this, you adjust the size of one of the objects.&amp;#10;&amp;#10;To increase the size of an object, use the up arrow key. To reduce its size, use the down arrow key. When you think the objects are the same size, press space to confirm.&amp;#10;&amp;#10;Before each task you will see a small green box. It shows where the object that you can resize will be located.&amp;#10;&amp;#10;When you have finished reading, press space to begin." valType="str" updates="constant" name="text"/>
+        <Param val="deg" valType="str" updates="None" name="units"/>
+        <Param val="30" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="welcome_keyb">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="welcome_keyb" valType="code" updates="None" name="name"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="nothing" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="goodbye">
+      <TextComponent name="end_text">
+        <Param val="white" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="1.5" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="end_text" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Thank you for your participation." valType="str" updates="constant" name="text"/>
+        <Param val="deg" valType="str" updates="None" name="units"/>
+        <Param val="26" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="target_indicator_1000ms">
+      <PolygonComponent name="target_rectangle">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$[0,1,0]" valType="str" updates="constant" name="fillColor"/>
+        <Param val="rgb" valType="str" updates="constant" name="fillColorSpace"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$[0,1,0]" valType="str" updates="constant" name="lineColor"/>
+        <Param val="rgb" valType="str" updates="constant" name="lineColorSpace"/>
+        <Param val="1" valType="code" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="target_rectangle" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="constant" name="shape"/>
+        <Param val="(1, 1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="deg" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <CodeComponent name="indicator_code">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# randomly select if the adjustable stimulus (and hence, the green &amp;#10;# rectangle indicating where the adjustable stimulus will be shown) &amp;#10;# goes on the right or left side if it’s a ‘star’/practice trial, otherwise&amp;#10;# fetch value from adjustable stimulus l/r values list&amp;#10;if do_star:&amp;#10;    adjust_pos_side = adjust_pos_side = sample(['l', 'r'], 1)[0] # randomly chooses 'l' or 'r'&amp;#10;else:&amp;#10;    adjust_pos_side = adj_stim_lr[adj_lr_count]&amp;#10;if adjust_pos_side=='l':&amp;#10;    adjust_pos = left_center&amp;#10;else:&amp;#10;    adjust_pos = right_center&amp;#10;target_rectangle.setPos(adjust_pos)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="indicator_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="illusions_trials">
+      <CodeComponent name="stim_code">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="from random import sample&amp;#10;from math import asin, acos&amp;#10;from numpy import sign&amp;#10;from copy import deepcopy&amp;#10;&amp;#10;# information fetched from&amp;#10;# Burghoorn, F., Dingemanse, M., Van Lier, R., &amp; Van Leeuwen,&amp;#10;# T. M. (2019). The relation between the degree of synaesthesia,&amp;#10;# autistic traits, and local/global visual perception.&amp;#10;# Journal of Autism and Developmental Disorders.&amp;#10;# Advance Online Publication.&amp;#10;&amp;#10;# all size/coordinate specifications in the experiment use deg units&amp;#10;&amp;#10;# set positions of left/right central circles&amp;#10;left_center = (-7, 0)&amp;#10;right_center = (7, 0)&amp;#10;&amp;#10;# set size (diameter) of &quot;reference&quot; circle, i. e. the circle whose&amp;#10;# size is to be matched&amp;#10;ref_circ_diam = 1.25&amp;#10;# set length of &quot;reference&quot; line&amp;#10;ref_line_len = 3&amp;#10;# set diameter of &quot;reference&quot; star&amp;#10;ref_star_diam = 2&amp;#10;# set how long the smaller arrow components should be in reference to the 'reference' line&amp;#10;# (basing this on manual measurements of image in Burghoorn)&amp;#10;small_line_len = 0.1851 * ref_line_len&amp;#10;# set angle (in rad) of smaller line from tip of horizontal line (is 45 deg according to Burghoorn)&amp;#10;small_line_angle = pi/4&amp;#10;# set orientations for small components in inward/outward arrow&amp;#10;inward_oris =  [x*small_line_angle/pi*180 for x in [1, -1, 1, -1]]&amp;#10;outward_oris = [x * small_line_angle/pi*180 for x in [-1, 1, -1, 1]]&amp;#10;&amp;#10;# set minimum initial size of adjustable circle (.68, as per Burghoorn article)&amp;#10;adjust_circle_init_min = .68&amp;#10;# set maximum initial size of adjustable circle&amp;#10;adjust_circle_init_max = 1.82&amp;#10;# set minimum initial size of adjustable line (2.43, as per Burghoorn article)&amp;#10;adjust_line_init_min = 2.43&amp;#10;# set maximum initial size of adjustable line&amp;#10;adjust_line_init_max = 3.86&amp;#10;# set minimum initial size of adjustable star (not specified in Burghoorn)&amp;#10;adjust_star_init_min = 0.7&amp;#10;# set maximum initial size of adjustable star&amp;#10;adjust_star_init_max = 2.5&amp;#10;&amp;#10;# set minimum/maximum sizes that stimuli can be adjusted to (this isn't&amp;#10;# specified in the Burghoorn article, instead they were chosen based&amp;#10;# on what seems reasonable&amp;#10;adjust_circle_min = .59 * adjust_circle_init_min&amp;#10;adjust_circle_max = adjust_circle_init_max&amp;#10;adjust_line_min = 0.62 * adjust_line_init_min&amp;#10;adjust_line_max = 1.63 * adjust_line_init_max&amp;#10;adjust_star_min = 0.71 * adjust_star_init_min&amp;#10;adjust_star_max = 1.20 * adjust_star_init_max&amp;#10;&amp;#10;# set distance of small/large context circles from&amp;#10;# central circles&amp;#10;small_circ_dist = 1.25&amp;#10;large_circ_dist = 2.08&amp;#10;&amp;#10;# set distance of small arrow components' centres from centre of&amp;#10;# long/middle component&amp;#10;# (basing these distances on manual measurements of image in Burghoorn,&amp;#10;# and using the rule of cosines)&amp;#10;# - when arrows are 'outward'&amp;#10;outward_dist = ((ref_line_len/2)**2 + (small_line_len/2)**2 - \&amp;#10;               2*(ref_line_len/2)*small_line_len/2*cos(pi-small_line_angle))**(1/2)&amp;#10;# - when arrows are 'inward'&amp;#10;inward_dist = ((ref_line_len/2)**2 + (small_line_len/2)**2 - \&amp;#10;               2*(ref_line_len/2)*small_line_len/2*cos(small_line_angle))**(1/2)&amp;#10;&amp;#10;# set angle (in rad) going from center of long component of arrow to&amp;#10;# center of top-right outward arrow component&amp;#10;outward_angle = asin(small_line_len/2*sin(pi/4)/&amp;#10;                     outward_dist)&amp;#10;&amp;#10;# set angle (in rad) going from center of long component of arrow to&amp;#10;# center of top-right inward arrow component&amp;#10;inward_angle = asin(small_line_len/2*sin(pi/4)/&amp;#10;                     inward_dist)&amp;#10;&amp;#10;&amp;#10;# set size (diameter) of smaller/larger context circles&amp;#10;small_circ_diam = .42&amp;#10;large_circ_diam = 1.67&amp;#10;&amp;#10;# generate positions of the 8 smaller context circles,&amp;#10;# by using the fact that&amp;#10;# cos(angle) = (distance from center)/(xcoord)&amp;#10;# and&amp;#10;# sin(angle) = (distance from center)/(ycoord)&amp;#10;# when appearing on the left side&amp;#10;small_circ_pos_l = []&amp;#10;for c in range(8): # 8 circles are to be generated&amp;#10;    x_displ = cos(c*(2*pi)/8) * small_circ_dist&amp;#10;    y_displ = sin(c*(2*pi)/8) * small_circ_dist&amp;#10;    new_pos = (left_center[0]+x_displ, left_center[1]+y_displ)&amp;#10;    small_circ_pos_l.append(new_pos)&amp;#10;# when appearing on the right side&amp;#10;small_circ_pos_r = [(x + right_center[0] - left_center[0], y + right_center[1] - left_center[1]) for x, y in small_circ_pos_l]&amp;#10;&amp;#10;# use an analogous process to generate positions of&amp;#10;# the 4 larger context circles&amp;#10;# when appearing on the left side&amp;#10;large_circ_pos_l = []&amp;#10;for c in range(4):&amp;#10;    x_displ = cos(c*(2*pi)/4) * large_circ_dist&amp;#10;    y_displ = sin(c*(2*pi)/4) * large_circ_dist&amp;#10;    new_pos = (left_center[0]+x_displ, left_center[1]+y_displ)&amp;#10;    large_circ_pos_l.append(new_pos)&amp;#10;# when appearing on the right side&amp;#10;large_circ_pos_r = [(x + right_center[0] - left_center[0], y + right_center[1] - left_center[1]) for x, y in large_circ_pos_l]&amp;#10;&amp;#10;# generate positions of inward arrow short/small components&amp;#10;inward_line_pos_l = []&amp;#10;inward_angles = [inward_angle, pi-inward_angle, # list of all angles from long component center to short components' centers&amp;#10;                 pi+inward_angle, -inward_angle]&amp;#10;for alpha in inward_angles: # 4 lines are to be generated&amp;#10;    x_displ = cos(alpha) * inward_dist&amp;#10;    y_displ = sin(alpha) * inward_dist&amp;#10;    new_pos = [left_center[0]+x_displ, left_center[1]+y_displ]&amp;#10;    inward_line_pos_l.append(new_pos)&amp;#10;# when appearing on the right side&amp;#10;inward_line_pos_r = [[x + right_center[0] - left_center[0], y + right_center[1] - left_center[1]] for x, y in inward_line_pos_l]&amp;#10;&amp;#10;# generate positions of outward arrow short/small components&amp;#10;outward_line_pos_l = []&amp;#10;outward_angles = [outward_angle, pi-outward_angle, # list of all angles from long component center to short components' centers&amp;#10;                 pi+outward_angle, -outward_angle]&amp;#10;for alpha in outward_angles: # 4 lines are to be generated&amp;#10;    x_displ = cos(alpha) * outward_dist&amp;#10;    y_displ = sin(alpha) * outward_dist&amp;#10;    new_pos = [left_center[0]+x_displ, left_center[1]+y_displ]&amp;#10;    outward_line_pos_l.append(new_pos)&amp;#10;# when appearing on the right side&amp;#10;outward_line_pos_r = [[x + right_center[0] - left_center[0], y + right_center[1] - left_center[1]] for x, y in outward_line_pos_l]&amp;#10;&amp;#10;&amp;#10;# create adjustable circle polygon&amp;#10;adjust_circle = visual.Polygon(&amp;#10;    win=win, name='adjust_circle',units='deg',&amp;#10;    edges=120, size=[1.0, 1.0],&amp;#10;    ori=0, pos=(0, 0),&amp;#10;    lineWidth=1, lineColor=[1,1,1], lineColorSpace='rgb',&amp;#10;    fillColor=[1,1,1], fillColorSpace='rgb',&amp;#10;    opacity=1, depth=0.0, interpolate=True)&amp;#10;&amp;#10;# create a circle polygon that will be used for drawing all static&amp;#10;# circles (i. e. all circles except the adjustable one)&amp;#10;static_circle = visual.Polygon(&amp;#10;    win=win, name='static_circle',units='deg',&amp;#10;    edges=120, size=[1.0, 1.0],&amp;#10;    ori=0, pos=(0, 0),&amp;#10;    lineWidth=1, lineColor=[1,1,1], lineColorSpace='rgb',&amp;#10;    fillColor=[1,1,1], fillColorSpace='rgb',&amp;#10;    opacity=1, depth=0.0, interpolate=True)&amp;#10;&amp;#10;# create rectangle polygon that will be used as the adjustable component&amp;#10;# of muller-lyer arrows. the height value is about&amp;#10;# 2.36% of that of the reference line's width, since that is what manual measurement&amp;#10;# of image in Burghoorn indicates.&amp;#10;adjust_line = visual.Rect(&amp;#10;    win=win, name='adjust_line',&amp;#10;    width=ref_line_len, height=0.02364 * ref_line_len,&amp;#10;    ori=0, pos=(0, 0),&amp;#10;    lineWidth=1, lineColor=[1,1,1], lineColorSpace='rgb',&amp;#10;    fillColor=[1,1,1], fillColorSpace='rgb',&amp;#10;    opacity=1, depth=-2.0, interpolate=True,&amp;#10;    units='deg')&amp;#10;&amp;#10;# create a context rectangle polygon&amp;#10;# that will be used for static lines in muller-lyer&amp;#10;# arrows, (with length that is 18.51%&amp;#10;# of that of the long reference muller-lyer arrow component when drawing&amp;#10;# shorter arrow components, since that is what&amp;#10;# manual measurement of stimuli images in Burghoorn indicates)&amp;#10;static_line = visual.Rect(&amp;#10;    win=win, name='static_line',&amp;#10;    width=0.1851 * ref_line_len, height=0.02364 * ref_line_len,&amp;#10;    ori=-45, pos=(0, 0),&amp;#10;    lineWidth=1, lineColor=[1,1,1], lineColorSpace='rgb',&amp;#10;    fillColor=[1,1,1], fillColorSpace='rgb',&amp;#10;    opacity=1, depth=-2.0, interpolate=True,&amp;#10;    units='deg')&amp;#10;&amp;#10;# create an adjustable star stimulus that will be used&amp;#10;# in &quot;star&quot;/practice trials&amp;#10;adjust_star = visual.ShapeStim(&amp;#10;    win=win, name='adjust_star', vertices='star7',&amp;#10;    size=(0.5, 0.5),&amp;#10;    ori=0, pos=(0, 0),&amp;#10;    lineWidth=1, lineColor=[1,1,-1], lineColorSpace='rgb',&amp;#10;    fillColor=[1,1,-1], fillColorSpace='rgb',&amp;#10;    opacity=1, depth=-2.0, interpolate=True,&amp;#10;    units='deg')&amp;#10;&amp;#10;# create a reference star stimulus that will be used&amp;#10;# in &quot;star&quot;/practice trials&amp;#10;static_star = visual.ShapeStim(&amp;#10;    win=win, name='static_star', vertices='star7',&amp;#10;    size=(ref_star_diam, ref_star_diam),&amp;#10;    ori=0, pos=(0, 0),&amp;#10;    lineWidth=1, lineColor=[1,1,-1], lineColorSpace='rgb',&amp;#10;    fillColor=[1,1,-1], fillColorSpace='rgb',&amp;#10;    opacity=1, depth=-2.0, interpolate=True,&amp;#10;    units='deg')&amp;#10;&amp;#10;# generate tuples with specifications of if context/distractor&amp;#10;# stimuli should or shouldn't be drawn, based on&amp;#10;# &quot;four task sessions: two sessions of the Ebbinghaus task&amp;#10;# and two sessions of the Müller- Lyer task, in counterbalanced&amp;#10;# order [...] Of the 20 experimental trials per session 10 trials&amp;#10;# were context-free and 10 trials had context. The context- and&amp;#10;# context-free trials were blocked, and across the two sessions per&amp;#10;# task, it was counterbalanced whether participants started with&amp;#10;# 10 context-trials or 10 context-free trials. Within each 10&amp;#10;# trials trial order was randomised.&quot;&amp;#10;# NOTE: 'con' means context. 'noc' means no context. 'ebbing'&amp;#10;# means Ebbinghaus illusion, 'muller' Muller-Lyer illusion.&amp;#10;# this generates a list where trial_spec[0][0] is the type of&amp;#10;# illusion for first block, [0][1][0] is what happens for first&amp;#10;# 10 trials, [0][1][0][0] describes if context should/should not be&amp;#10;# included for 10 trials, [0][1][0][1] describes where small circles&amp;#10;# or inward arrows should be (on left or right side)&amp;#10;trial_spec = []&amp;#10;&amp;#10;# randomly select order of illusion type blocks - also making a separate list of&amp;#10;# context positions for context trials (for use when forming list of to-be-adjusted&amp;#10;# stimulus positions)&amp;#10;con_positions = [] # separate list of context positions for context trials&amp;#10;con_noc_order = [] # separate list for storing order of 'context'/'nocontext' groupings&amp;#10;&amp;#10;# choose one of the two possible orderings of ebbinghaus/muller-lyer tasks&amp;#10;ill_type_order = sample([['ebbing', 'muller', 'ebbing', 'muller'], ['muller', 'ebbing', 'muller', 'ebbing']], 1)[0]&amp;#10;&amp;#10;# randomly deciding for each task type if it its first or second block should be &amp;#10;# the one where the first 10 trials have 'no context'&amp;#10;cont_spec = sample(([['noc', 'con'], ['con', 'noc']], [['con', 'noc'], ['noc', 'con']]), 2)&amp;#10;cont_spec = cont_spec[0][0], cont_spec[1][0], cont_spec[0][1], cont_spec[1][1]&amp;#10;&amp;#10;# for each illusion type value, generate specifications for a block of trials&amp;#10;for i, ill_type in enumerate(ill_type_order): &amp;#10;    # initialize a list that will hold two tuples - one for 10 'context' trials,&amp;#10;    # another for 10 'nocontext' trials&amp;#10;    cont_ls = []&amp;#10;    for cont_type in cont_spec[i]: # for 'no context'/'noc' and 'context'/'con' trials&amp;#10;        loop_pos = sample(['l']*5+['r']*5, 10) # create a list of 5 'r' and 5 'l' vals, randomly shuffled&amp;#10;        cont_ls.append( (cont_type, loop_pos)) # append a tuple with the content type spec and the 10 'l'/'r' vals&amp;#10;        if cont_type == &quot;con&quot;: # if it's a set of trials where context is included&amp;#10;            con_positions += loop_pos # add the list of 'r' and 'l' values to total list of context pos vals&amp;#10;        con_noc_order.append(cont_type)&amp;#10;    # append, to the trial specifications list a tuple with the illusion type and&amp;#10;    # the list of 'noc'/'con' trials tuples&amp;#10;    trial_spec.append( (ill_type, cont_ls) )&amp;#10;&amp;#10;# initialize counters that will be used for stepping through the&amp;#10;# trial_spec lists&amp;#10;l_r_count = 0 # for stepping through left/right values&amp;#10;first_last_10_count = 0 # for stepping through first 10/last 10 trials of each block&amp;#10;block_count = 0 # for stepping through blocks/illusion type values&amp;#10;&amp;#10;# forming a list of to-be-adjusted stimulus positions, where it’s&amp;#10;# counter-balanced on a “per-illusion” level whether&amp;#10;# A the to-be-adjusted stimulus is embedded in a ‘large’/‘small’ context&amp;#10;# (‘outward’/‘inward’ arrow)&amp;#10;# B the to-be-adjusted stimulus is on the left or right hand side of the screen&amp;#10;# 1. extract 1st block+3rd block and 2nd block+4th block context trial, ‘l’/‘r’&amp;#10;# context position lists&amp;#10;# 2. get indices of all ‘l’ values in 1st+3rd block list&amp;#10;# 3. form an empty list of length 20 (block_1_3_ls, later block_2_4)&amp;#10;# 4. randomly sample from (‘l’, ‘r’)*5&amp;#10;# 5. put the values from step 4 into the list from step 3, at the indices&amp;#10;# fetched in step 2&amp;#10;# 6. repeat steps 4-5, only this time using the indices of ‘r’ values in&amp;#10;# 1st+3rd block list&amp;#10;# (i. e. the complement to the indices from step 2)&amp;#10;# 7. repeat steps 2-6, only this time doing it with the 2nd block+4th block&amp;#10;# ‘l’/‘r’ list&amp;#10;# 8. Join the two lists produced by steps 1-7, first putting them all together,&amp;#10;# then separating them using random samplings of 10 'l'/'r' values for groupings&amp;#10;# of 'no context' trials&amp;#10;con_pos_1_3 = con_positions[0:10] + con_positions[20:30]&amp;#10;con_pos_2_4 = con_positions[10:20] + con_positions[30:40]&amp;#10;l_1_3 = [ind for ind, val in enumerate(con_pos_1_3) if val=='l']&amp;#10;r_1_3 = [ind for ind, val in enumerate(con_pos_1_3) if val=='r']&amp;#10;l_2_4 = [ind for ind, val in enumerate(con_pos_2_4) if val=='l']&amp;#10;r_2_4 = [ind for ind, val in enumerate(con_pos_2_4) if val=='r']&amp;#10;adj_stim_lr_con_1_3 = ['']*20&amp;#10;adj_stim_lr_con_2_4 = ['']*20&amp;#10;for side_indices_ls in [l_1_3, r_1_3]:&amp;#10;    rand_10_pos = sample(['l', 'r'] * 5, 10)&amp;#10;    for rand_pos_ind, ind in enumerate(side_indices_ls):&amp;#10;        adj_stim_lr_con_1_3[ind] = rand_10_pos[rand_pos_ind]&amp;#10;for side_indices_ls in [l_1_3, r_1_3]:&amp;#10;    rand_10_pos = sample(['l', 'r'] * 5, 10)&amp;#10;    for rand_pos_ind, ind in enumerate(side_indices_ls):&amp;#10;        adj_stim_lr_con_2_4[ind] = rand_10_pos[rand_pos_ind]&amp;#10;adj_stim_lr = [] # initialize list for storing all to-be-adjusted stimulus positions&amp;#10;# form list that holds to-be-adjusted stimulus positions for all 'context' trials&amp;#10;adj_stim_lr_con = adj_stim_lr_con_1_3[0:10] + adj_stim_lr_con_2_4[0:10] + \&amp;#10;adj_stim_lr_con_1_3[10:20] + adj_stim_lr_con_2_4[10:20]&amp;#10;lower_index_loop = 0 # initialize a counter to be used for stepping through adj_stim_lr_con values&amp;#10;for context_or_no in con_noc_order:&amp;#10;    if context_or_no==&quot;con&quot;: # if it's a grouping of 10 context trials&amp;#10;        adj_stim_lr += adj_stim_lr_con[lower_index_loop:lower_index_loop+10] # add 10 values from adj_stim_lr_con&amp;#10;        lower_index_loop += 10 # increase the counter for stepping through adj_stim_con_lr values&amp;#10;    else: # if it's a grouping of 10 no-context trials&amp;#10;        adj_stim_lr += sample(['l', 'r']*5, 10) # randomly sample from 5 'l' values and 5 'r' values&amp;#10;&amp;#10;# initialize counter for stepping through to-be-adjusted left/right values&amp;#10;adj_lr_count = 0&amp;#10;&amp;#10;# ensure that the first block of trials starts with a 'star'/practice trial&amp;#10;do_star = True&amp;#10;&amp;#10;# initialize keyboard that is to be used for trial routines&amp;#10;adjust_keyboard = keyboard.Keyboard()&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# get value specifying if smaller circles/inward arrows go on&amp;#10;# right or left side&amp;#10;l_r_val = trial_spec[block_count][1][first_last_10_count][1][l_r_count]&amp;#10;# get value specifying if context or no context is to be used&amp;#10;noc_con = trial_spec[block_count][1][first_last_10_count][0]&amp;#10;&amp;#10;# set the reference line/circle's position to be the side where the&amp;#10;# adjustable stimulus isn't placed (the 'adjust_pos' variable is assigned&amp;#10;# its value in the code snippet for the target indicator routine)&amp;#10;if adjust_pos_side=='r':&amp;#10;    reference_pos = left_center&amp;#10;else:&amp;#10;    reference_pos = right_center&amp;#10;&amp;#10;# initialize/reset has_changed variable, which indicates if participant has given a response&amp;#10;has_changed = False&amp;#10;&amp;#10;# initialize/reset counter for the number of adjustments the participant makes&amp;#10;adjustment_counter = 0&amp;#10;&amp;#10;# store routine start time&amp;#10;routine_start_t = t&amp;#10;&amp;#10;# flush keyboard input, to prevent pre-presentation keyboard presses from being registered&amp;#10;_ = adjust_keyboard.getKeys(keyList=['up', 'down', 'space'], waitRelease=False)&amp;#10;&amp;#10;# if a 'star'/practice trial is to be done:&amp;#10;if do_star:&amp;#10;    adjust_size = adjust_star_init_min + (adjust_star_init_max - adjust_star_init_min) * random()&amp;#10;    ref_size = ref_star_diam&amp;#10;    if adjust_pos_side == 'l':&amp;#10;        adjust_star.pos = left_center&amp;#10;        static_star.pos = right_center&amp;#10;    elif adjust_pos_side == 'r':&amp;#10;        adjust_star.pos = right_center&amp;#10;        static_star.pos = left_center&amp;#10;# if ebbinghaus block:&amp;#10;elif trial_spec[block_count][0]==&quot;ebbing&quot;:&amp;#10;    # set adjustable circle diameter variable initial value&amp;#10;    adjust_size = adjust_circle_init_min + (adjust_circle_init_max - adjust_circle_init_min) * random()&amp;#10;    adjust_circle.pos = adjust_pos&amp;#10;    ref_size = ref_circ_diam # reference size is reference circle diameter&amp;#10;    if noc_con == &quot;con&quot;: # if context is to be used&amp;#10;        if l_r_val == &quot;l&quot;: # if small circles should be on the left&amp;#10;            small_circ_pos = small_circ_pos_l&amp;#10;            large_circ_pos = large_circ_pos_r&amp;#10;        elif l_r_val == &quot;r&quot;:&amp;#10;            small_circ_pos = small_circ_pos_r&amp;#10;            large_circ_pos = large_circ_pos_l&amp;#10;# if muller-lyer block:&amp;#10;elif trial_spec[block_count][0]==&quot;muller&quot;:&amp;#10;    # set adjustable arrow length to random initial value (using values specified in begin_exp code)&amp;#10;    adjust_size = adjust_line_init_min + (adjust_line_init_max - adjust_line_init_min) * random()&amp;#10;    # get difference between reference line's length and adjustable line's length&amp;#10;    adjust_diff_len = adjust_size - ref_line_len&amp;#10;    ref_size = ref_line_len # reference size is reference line length&amp;#10;    adjust_line.pos = adjust_pos&amp;#10;    if noc_con == &quot;con&quot;: # if context is to be used&amp;#10;        if l_r_val == &quot;l&quot;: # if inward arrows should be on the left&amp;#10;            if adjust_pos_side == &quot;l&quot;: # if the adjustable stimulus goes on the left&amp;#10;                # in this case, inward lines should go on the left, and be adjustable&amp;#10;                adjust_con_pos = deepcopy(inward_line_pos_l)  # adjustable context positions list&amp;#10;                static_con_pos = outward_line_pos_r # static context positions list&amp;#10;                adjust_con_oris = inward_oris&amp;#10;                static_con_oris = outward_oris&amp;#10;            elif adjust_pos_side == &quot;r&quot;: # if the adjustable stimulus goes on the right&amp;#10;                adjust_con_pos = deepcopy(outward_line_pos_r)&amp;#10;                static_con_pos = inward_line_pos_l&amp;#10;                adjust_con_oris = outward_oris&amp;#10;                static_con_oris = inward_oris&amp;#10;        elif l_r_val == &quot;r&quot;: # if inward arrows should be on the right&amp;#10;            if adjust_pos_side == &quot;l&quot;: # if the adjustable stimulus goes on the left&amp;#10;                # in this case, inward lines should go on the right, and be static&amp;#10;                adjust_con_pos = deepcopy(outward_line_pos_l)&amp;#10;                static_con_pos = inward_line_pos_r&amp;#10;                adjust_con_oris = outward_oris&amp;#10;                static_con_oris = inward_oris&amp;#10;            elif adjust_pos_side == &quot;r&quot;:&amp;#10;                adjust_con_pos = deepcopy(inward_line_pos_r)&amp;#10;                static_con_pos = outward_line_pos_l&amp;#10;                adjust_con_oris = inward_oris&amp;#10;                static_con_oris = outward_oris&amp;#10;        # shift initial positions of adjustable small arrow components based on adjustable arrow length's initial value&amp;#10;        for pos in adjust_con_pos:&amp;#10;            # if position of small arrow component has a greater x-coordinate than the position of the&amp;#10;            # long component, increase the small arrow component's x-coordinate by half the adjust_diff_len&amp;#10;            # value (bringing the small component further away if adjust_diff_len is positive,&amp;#10;            # closer if the value is negative)&amp;#10;            if pos[0] &gt; adjust_pos[0]:&amp;#10;                pos[0] += adjust_diff_len / 2&amp;#10;            else:&amp;#10;                pos[0] -= adjust_diff_len / 2&amp;#10;        has_changed = False&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="# check if participant has pressed up/down/space&amp;#10;waitOnFlip = False&amp;#10;theseKeys = adjust_keyboard.getKeys(keyList=['up', 'down', 'space'], waitRelease=False)&amp;#10;if len(theseKeys):&amp;#10;    if 'up' in theseKeys and ((trial_spec[block_count][0]==&quot;ebbing&quot; and adjust_size &lt; adjust_circle_max) or (trial_spec[block_count][0]==&quot;muller&quot; and adjust_size &lt; adjust_line_max) or (do_star and adjust_size &lt; adjust_star_max)):&amp;#10;        adjust_change = 0.05 * adjust_size&amp;#10;        adjust_size += adjust_change # increase diameter/arrow length by 10%&amp;#10;        has_changed = True&amp;#10;        adjustment_counter += 1&amp;#10;    elif 'down' in theseKeys and ((trial_spec[block_count][0] == &quot;ebbing&quot; and adjust_size &gt; adjust_circle_min) or (trial_spec[block_count][0] == &quot;muller&quot; and adjust_size &gt; adjust_line_min) or (do_star and adjust_size &gt; adjust_star_min)):&amp;#10;        adjust_change = -0.05 * adjust_size&amp;#10;        adjust_size += adjust_change # decrease diameter/arrow length by 10%&amp;#10;        has_changed = True&amp;#10;        adjustment_counter += 1&amp;#10;    elif 'space' in theseKeys:&amp;#10;        continueRoutine = False # end routine&amp;#10;&amp;#10;# if a 'star'/practice trial is to be done&amp;#10;if do_star:&amp;#10;    # draw reference star&amp;#10;    static_star.draw()&amp;#10;    # draw adjustable star&amp;#10;    adjust_star.size = (adjust_size, adjust_size)&amp;#10;    adjust_star.draw()&amp;#10;# if in a muller-lyer block at the moment (and no 'star' trial is to be done)&amp;#10;elif trial_spec[block_count][0]==&quot;muller&quot;:&amp;#10;    # adjust positions of adjustable small arrow components, if participant has given input&amp;#10;    if noc_con == &quot;con&quot; and has_changed:&amp;#10;        for pos in adjust_con_pos:&amp;#10;            if pos[0] &gt; adjust_pos[0]:&amp;#10;                pos[0] += adjust_change/2 # change position by half as much that the long component's width changes&amp;#10;            else:&amp;#10;                pos[0] -= adjust_change/2&amp;#10;        has_changed = False&amp;#10;    # draw context components&amp;#10;    if noc_con == &quot;con&quot;:&amp;#10;        adjust_line.width, static_line.width = [0.1851 * ref_line_len] * 2&amp;#10;        for pos_index in range(len(adjust_con_pos)):&amp;#10;            adjust_line.pos = adjust_con_pos[pos_index]&amp;#10;            adjust_line.ori = adjust_con_oris[pos_index]&amp;#10;            adjust_line.draw()&amp;#10;        for pos_index in range(len(static_con_pos)):&amp;#10;            static_line.pos = static_con_pos[pos_index]&amp;#10;            static_line.ori = static_con_oris[pos_index]&amp;#10;            static_line.draw()&amp;#10;    # draw adjustable long arrow component&amp;#10;    adjust_line.width = adjust_size&amp;#10;    adjust_line.pos = adjust_pos&amp;#10;    adjust_line.ori = 0&amp;#10;    adjust_line.draw()&amp;#10;    # draw static long arrow component&amp;#10;    static_line.width = ref_size&amp;#10;    static_line.pos = reference_pos&amp;#10;    static_line.ori = 0&amp;#10;    static_line.draw()&amp;#10;# if in an ebbinghaus block at the moment&amp;#10;elif trial_spec[block_count][0]==&quot;ebbing&quot;:&amp;#10;    if noc_con == &quot;con&quot;: # if context is to be used&amp;#10;        # draw large context circles&amp;#10;        static_circle.size = [large_circ_diam, large_circ_diam]&amp;#10;        for pos in large_circ_pos:&amp;#10;           static_circle.pos = pos&amp;#10;           static_circle.draw()&amp;#10;        # draw small context circles&amp;#10;        static_circle.size = [small_circ_diam, small_circ_diam]&amp;#10;        for pos in small_circ_pos:&amp;#10;           static_circle.pos = pos&amp;#10;           static_circle.draw()&amp;#10;    # draw reference circle&amp;#10;    static_circle.size = [ref_size, ref_size]&amp;#10;    static_circle.pos = reference_pos&amp;#10;    static_circle.draw()&amp;#10;    # draw adjustable circle&amp;#10;    adjust_circle.size = (adjust_size, adjust_size)&amp;#10;    adjust_circle.draw()&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="illusions_trials_loop.addData('trial.duration', t - routine_start_t)&amp;#10;illusions_trials_loop.addData('trial.adjustable_side', adjust_pos_side)&amp;#10;illusions_trials_loop.addData('trial.adjustments_counts', adjustment_counter)&amp;#10;if do_star: # if a 'star'/practice trial just finished&amp;#10;    do_star = False # tell PsychoPy that the next trial is not to be a 'star' trial&amp;#10;    illusions_trials_loop.addData('trial.illusion_type', 'star')&amp;#10;    illusions_trials_loop.addData('trial.context_used', 'no_context')&amp;#10;    illusions_trials_loop.addData('trial.small_circle_inward_arrow_side', 'no_context')&amp;#10;else: # if a 'non-star'/test trial just finished&amp;#10;    l_r_count += 1 # bump context left/right values counter, i. e. proceed to next trial&amp;#10;    adj_lr_count += 1 # bump to-be-adjusted-stimulus left/right values&amp;#10;    illusions_trials_loop.addData('trial.illusion_type', trial_spec[block_count][0])&amp;#10;    illusions_trials_loop.addData('reference_minus_adjustable_size', ref_size - adjust_size)&amp;#10;    if noc_con == 'con':&amp;#10;        illusions_trials_loop.addData('trial.context_used', 'context')&amp;#10;        illusions_trials_loop.addData('trial.small_circle_inward_arrow_side', l_r_val)&amp;#10;    else:&amp;#10;        illusions_trials_loop.addData('trial.context_used', 'no_context')&amp;#10;        illusions_trials_loop.addData('trial.small_circle_inward_arrow_side', 'no_context')&amp;#10;&amp;#10;if l_r_count &gt;= 10: # if gone through all l/r values&amp;#10;    first_last_10_count += 1 # go from context trials to no context trials or vice versa&amp;#10;    l_r_count = 0 # reset l/r values counter&amp;#10;    if first_last_10_count &gt;= 2: # if already done both context and no context trials&amp;#10;        block_count += 1 # proceed to next block of trials&amp;#10;        do_star = True # ensure that the next block of trials starts with a 'star'/practice trial&amp;#10;        first_last_10_count = 0 # reset no context/context specification trial&amp;#10;&amp;#10;# this is outside of the above if/else statements because the data to be saved is the same for&amp;#10;# 'star'/'non-star' trials&amp;#10;illusions_trials_loop.addData('reference_minus_adjustable_size', ref_size - adjust_size)&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="stim_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="time_holder_text">
+        <Param val="grey" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.000001" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="time_holder_text" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="welcome"/>
+    <LoopInitiator loopType="TrialHandler" name="illusions_trials_loop">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="len(ill_type_order) * 21" valType="code"/>
+      <Param name="name" updates="None" val="illusions_trials_loop" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="target_indicator_1000ms"/>
+    <Routine name="illusions_trials"/>
+    <LoopTerminator name="illusions_trials_loop"/>
+    <Routine name="goodbye"/>
+  </Flow>
+</PsychoPy2experiment>
